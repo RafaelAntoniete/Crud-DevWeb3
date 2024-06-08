@@ -13,7 +13,7 @@ const swaggerOptions = {
       },
       servers: [
         {
-          url: 'https://crud-g2t1.onrender.com',
+          url: 'https://crud-devweb3.onrender.com',
           description: 'Servidor da API',
         },
       ],
