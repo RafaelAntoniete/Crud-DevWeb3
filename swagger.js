@@ -9,7 +9,7 @@ const swaggerOptions = {
       version: '1.0.0',
       description: 'API para gerenciamento de funcionários',
       contact: {
-        name: 'Pedro Moreira',
+        name: 'Rafael Antoniete',
       },
       servers: [
         {

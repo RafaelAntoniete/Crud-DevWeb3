@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const mongoURI = 'mongodb+srv://rafaelantoniete0:r8GwsL5aa8VLfbkX@cluster0.x2aq3ci.mongodb.net/';
+const mongoURI = 'mongodb+srv://rafaelantoniete0:r8GwsL5aa8VLfbkX@cluster0.x2aq3ci.mongodb.net/employees?retryWrites=true&w=majority';
 
 mongoose
   .connect(mongoURI)
